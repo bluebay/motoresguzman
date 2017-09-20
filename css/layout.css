@@ -31,9 +31,8 @@ body { background: #0f0f0f; }
 header {
    position: relative;
    height: 800px;
-   min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   <!-- background: #161415 url(../images/header-background.jpg) no-repeat top center; -->
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -58,7 +57,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 50px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -139,6 +138,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background: rgba(255, 0, 0, 0.3);
 }
 .opaque { background-color: #333; }
 
@@ -237,8 +237,8 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 10px;
+   padding-bottom: 1px;
    overflow: hidden;
 }
 
@@ -251,11 +251,11 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
-   padding-bottom: 6px;
+   border-bottom: 2px solid #11ABB0;
+   padding-bottom: 0px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 15px/17px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -650,7 +650,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -785,8 +785,8 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
+   padding-top: 16px;
+   padding-bottom: 0px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
@@ -819,7 +819,7 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 11px/20px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -999,4 +999,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
